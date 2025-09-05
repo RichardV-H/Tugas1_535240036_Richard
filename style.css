@@ -1,0 +1,99 @@
+/*https://www.hostinger.com/id/tutorial/daftar-kode-warna-html-dan-css#Variasi_Warna_Biru*/
+/*abaikan saja, link cari warna hrtml*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 5px double #000;
+}
+
+.isi {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    /*dari sini kebawah boleh hapus ini cuman demi memperbagus tampilan*/
+    max-width: 800px;
+    border: 2px solid #000;
+}
+
+.kiri {
+    width: 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #40E0D0;
+}
+
+.kanan {
+    width: 70%;
+    padding: 20px;
+    background-color: #E0FFFF;
+    color: #000;
+}
+
+.kiri img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 15px 50px;
+    object-fit: cover;
+    border: 3px solid #40E0D0;
+}
+
+.biodata {
+    flex: 1;
+    margin: 10px 0 10px; /*slide 41 bab 2. abaikan ini kalo saya binggung atau buat apa fungsinya*/
+    border-bottom: 5px double #6A5ACD;
+    padding-bottom: 2px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    color :#f4f4f4
+}
+
+h4 {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color :#f4f4f4
+}
+
+.isi2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.kanan h1 {
+    margin-bottom: -15px;
+}
+
+.kanan h2 {
+    border-bottom: 5px solid #000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.isi2 p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.kiri h2 {
+    border-bottom: 5px solid #40E0D0;
+}
