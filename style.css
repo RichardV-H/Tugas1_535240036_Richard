@@ -6,12 +6,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    width: 40rem;
 }
 
 header {
     padding: 10px 0;
     text-align: left;
     border-bottom: 5px double #000;
+    align-items: center;
 }
 
 .isi {
@@ -20,6 +22,7 @@ header {
     display: flex;
     /*dari sini kebawah boleh hapus ini cuman demi memperbagus tampilan*/
     max-width: 800px;
+    max-height: 1600px;
     border: 2px solid #000;
 }
 
